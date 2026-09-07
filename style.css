@@ -698,3 +698,22 @@ html {
     display: none;
   }
 }
+@media (max-width: 700px) {
+  #home {
+    min-height: auto;
+    padding-top: 70px;
+    padding-bottom: 70px;
+  }
+
+  .profile-photo {
+    width: 200px;
+    height: 255px;
+    margin: 36px auto 0;
+  }
+
+  .currently {
+    width: 90%;
+    max-width: 280px;
+    margin: -28px auto 0;
+  }
+}
